@@ -2,19 +2,24 @@ package OOP;
 
 public class Person {
 
-    public void getIsm(String ism){
-        System.out.println("Ism " + ism);
-    }
+    String ism;
+    String joy;
+    String ish;
+    int yosh;
 
-    public void getYosh(String yosh){
-        System.out.println("Yosh " + yosh);
-    }
+    public Person(String ism, String joy, String ish, int yosh){
+        this.ism = ism;
+        this.joy = joy;
+        this.ish = ish;
+        this.yosh = yosh;
 
-    public void getJoy(String joy){
-        System.out.println("Yashash joyi " + joy);
-    }
-
-    public void getIsh(String ish){
+        System.out.println("Ismi " + ism);
+        System.out.println("Yashash joyi "+ joy);
         System.out.println("Ishi " + ish);
+        System.out.println("Yoshi " + yosh);
+
+
     }
+
+
 }
